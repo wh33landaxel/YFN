@@ -21,6 +21,7 @@ class CalendarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("I'm here!")
     }
 
 }

@@ -11,8 +11,6 @@
 		F57459992430269A00DE5123 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57459972430269A00DE5123 /* CalendarViewController.xib */; };
 		F5C90890242A88A400511255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9088F242A88A400511255 /* AppDelegate.swift */; };
 		F5C90892242A88A400511255 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C90891242A88A400511255 /* SceneDelegate.swift */; };
-		F5C90894242A88A400511255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C90893242A88A400511255 /* ViewController.swift */; };
-		F5C90897242A88A400511255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C90895242A88A400511255 /* Main.storyboard */; };
 		F5C9089A242A88A400511255 /* YFN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5C90898242A88A400511255 /* YFN.xcdatamodeld */; };
 		F5C9089C242A88A600511255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C9089B242A88A600511255 /* Assets.xcassets */; };
 		F5C9089F242A88A600511255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C9089D242A88A600511255 /* LaunchScreen.storyboard */; };
@@ -43,8 +41,6 @@
 		F5C9088C242A88A400511255 /* YFN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C9088F242A88A400511255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C90891242A88A400511255 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5C90893242A88A400511255 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F5C90896242A88A400511255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5C90899242A88A400511255 /* YFN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YFN.xcdatamodel; sourceTree = "<group>"; };
 		F5C9089B242A88A600511255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5C9089E242A88A600511255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,7 +88,6 @@
 		F5745994242BDE5800DE5123 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F5C90893242A88A400511255 /* ViewController.swift */,
 				F57459962430269A00DE5123 /* CalendarViewController.swift */,
 				F57459972430269A00DE5123 /* CalendarViewController.xib */,
 			);
@@ -134,7 +129,6 @@
 				F5745993242BDDF200DE5123 /* Views */,
 				F5C9088F242A88A400511255 /* AppDelegate.swift */,
 				F5C90891242A88A400511255 /* SceneDelegate.swift */,
-				F5C90895242A88A400511255 /* Main.storyboard */,
 				F5C9089B242A88A600511255 /* Assets.xcassets */,
 				F5C9089D242A88A600511255 /* LaunchScreen.storyboard */,
 				F5C908A0242A88A600511255 /* Info.plist */,
@@ -267,7 +261,6 @@
 			files = (
 				F5C9089F242A88A600511255 /* LaunchScreen.storyboard in Resources */,
 				F5C9089C242A88A600511255 /* Assets.xcassets in Resources */,
-				F5C90897242A88A400511255 /* Main.storyboard in Resources */,
 				F57459992430269A00DE5123 /* CalendarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +287,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F57459982430269A00DE5123 /* CalendarViewController.swift in Sources */,
-				F5C90894242A88A400511255 /* ViewController.swift in Sources */,
 				F5C9089A242A88A400511255 /* YFN.xcdatamodeld in Sources */,
 				F5C90890242A88A400511255 /* AppDelegate.swift in Sources */,
 				F5C90892242A88A400511255 /* SceneDelegate.swift in Sources */,
@@ -333,14 +325,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F5C90895242A88A400511255 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5C90896242A88A400511255 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5C9089D242A88A600511255 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -480,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.axelnunez.YFN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -498,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.axelnunez.YFN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
