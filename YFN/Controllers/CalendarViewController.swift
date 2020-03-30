@@ -19,6 +19,8 @@ import UIKit
 */
 class CalendarViewController: UIViewController {
 
+    @IBOutlet weak var calendarView: CalendarView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("I'm here!")
