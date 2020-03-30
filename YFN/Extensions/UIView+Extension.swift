@@ -12,7 +12,12 @@ import UIKit
 
 extension UIView {
     
-    class func fromNib<T: UIView>() -> T {
-        return Bundle.main.loadNibNamed(String(describing: T.self), owner: nil, options: .none)![0] as! T
+    class func fromNib<T: UIView>() -> T? {
+        
+        if let topLevelObjects: [T] = Bundle.main.loadNibNamed(String(describing: T.self), owner: nil, options: .none) as? [T], let topObject = topLevelObjects.first {
+            return topObject
+        } else {
+            return nil
+        }
     }
 }
