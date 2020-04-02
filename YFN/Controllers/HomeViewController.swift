@@ -16,11 +16,11 @@ class HomeViewController: UITabBarController {
         
         let calendarVC = CalendarViewController()
         calendarVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
+        calendarVC.tabBarItem = UITabBarItem(title: "Calendar", image: UIImage(named: "Calendar"), tag: 0)
         let artistVC = ArtistViewController()
-        artistVC.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 1)
+        artistVC.tabBarItem = UITabBarItem(title: "Recent Artists", image: UIImage(named: "Artist"), tag: 1)
         let tipsVC = TipsViewController()
-        tipsVC.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 2)
-        
+        tipsVC.tabBarItem = UITabBarItem(title: "Tips & Tricks", image: UIImage(named: "Tips"), tag: 2)
         
         let viewControllerList = [calendarVC, artistVC, tipsVC]
         
