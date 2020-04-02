@@ -8,9 +8,14 @@
 
 import UIKit
 
+protocol CalendarViewDelegate {
+    func tappedOnDate(sender: CalendarViewController)
+}
+
 class CalendarView: UIView {
     @IBOutlet var contentView: UIView!
-    @IBOutlet weak var whateverLabel: UILabel!
+    @IBOutlet weak var calendarView: UICollectionView!
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()

@@ -17,12 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        navigationController = UINavigationController(rootViewController: HomeViewController())
-        navigationController?.isNavigationBarHidden = true
-        navigationController?.navigationBar.isTranslucent = true
-        
         let keyWindow = UIWindow(frame: UIScreen.main.bounds)
-        keyWindow.rootViewController = navigationController
+        keyWindow.rootViewController = HomeViewController()
         keyWindow.makeKeyAndVisible()
         window = keyWindow
         
