@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         if let windowScene = scene as? UIWindowScene {
             
-            navigationController = UINavigationController(rootViewController: CalendarViewController())
+            navigationController = UINavigationController(rootViewController: HomeViewController())
             navigationController?.isNavigationBarHidden = true
             navigationController?.navigationBar.isTranslucent = true
             

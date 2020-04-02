@@ -23,6 +23,7 @@ class CalendarViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Calendar"
         print("I'm here!")
     }
 

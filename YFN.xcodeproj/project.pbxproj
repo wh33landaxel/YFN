@@ -21,6 +21,12 @@
 		F5C9089F242A88A600511255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C9089D242A88A600511255 /* LaunchScreen.storyboard */; };
 		F5C908AA242A88A600511255 /* YFNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C908A9242A88A600511255 /* YFNTests.swift */; };
 		F5C908B5242A88A600511255 /* YFNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C908B4242A88A600511255 /* YFNUITests.swift */; };
+		F5EE6583243653CB007C78A7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EE6581243653CB007C78A7 /* HomeViewController.swift */; };
+		F5EE6584243653CB007C78A7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5EE6582243653CB007C78A7 /* HomeViewController.xib */; };
+		F5EE65872436550E007C78A7 /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EE65852436550E007C78A7 /* ArtistViewController.swift */; };
+		F5EE65882436550E007C78A7 /* ArtistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5EE65862436550E007C78A7 /* ArtistViewController.xib */; };
+		F5EE658B24365525007C78A7 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EE658924365525007C78A7 /* TipsViewController.swift */; };
+		F5EE658C24365525007C78A7 /* TipsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5EE658A24365525007C78A7 /* TipsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,12 @@
 		F5C908B0242A88A600511255 /* YFNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C908B4242A88A600511255 /* YFNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFNUITests.swift; sourceTree = "<group>"; };
 		F5C908B6242A88A600511255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5EE6581243653CB007C78A7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F5EE6582243653CB007C78A7 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		F5EE65852436550E007C78A7 /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		F5EE65862436550E007C78A7 /* ArtistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistViewController.xib; sourceTree = "<group>"; };
+		F5EE658924365525007C78A7 /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
+		F5EE658A24365525007C78A7 /* TipsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TipsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,12 @@
 			children = (
 				F57459962430269A00DE5123 /* CalendarViewController.swift */,
 				F57459972430269A00DE5123 /* CalendarViewController.xib */,
+				F5EE6581243653CB007C78A7 /* HomeViewController.swift */,
+				F5EE6582243653CB007C78A7 /* HomeViewController.xib */,
+				F5EE65852436550E007C78A7 /* ArtistViewController.swift */,
+				F5EE65862436550E007C78A7 /* ArtistViewController.xib */,
+				F5EE658924365525007C78A7 /* TipsViewController.swift */,
+				F5EE658A24365525007C78A7 /* TipsViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -293,8 +311,11 @@
 				F5C9089F242A88A600511255 /* LaunchScreen.storyboard in Resources */,
 				F5C9089C242A88A600511255 /* Assets.xcassets in Resources */,
 				F574599D24323DF800DE5123 /* CalendarView.xib in Resources */,
+				F5EE65882436550E007C78A7 /* ArtistViewController.xib in Resources */,
 				F57459992430269A00DE5123 /* CalendarViewController.xib in Resources */,
 				F57459AC243273F200DE5123 /* DateCell.xib in Resources */,
+				F5EE658C24365525007C78A7 /* TipsViewController.xib in Resources */,
+				F5EE6584243653CB007C78A7 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,8 +342,11 @@
 			files = (
 				F57459A02432410300DE5123 /* UIView+Extension.swift in Sources */,
 				F574599B2430376000DE5123 /* CalendarView.swift in Sources */,
+				F5EE65872436550E007C78A7 /* ArtistViewController.swift in Sources */,
 				F57459AB243273F200DE5123 /* DateCell.swift in Sources */,
+				F5EE6583243653CB007C78A7 /* HomeViewController.swift in Sources */,
 				F57459982430269A00DE5123 /* CalendarViewController.swift in Sources */,
+				F5EE658B24365525007C78A7 /* TipsViewController.swift in Sources */,
 				F5C9089A242A88A400511255 /* YFN.xcdatamodeld in Sources */,
 				F5C90890242A88A400511255 /* AppDelegate.swift in Sources */,
 				F5C90892242A88A400511255 /* SceneDelegate.swift in Sources */,
