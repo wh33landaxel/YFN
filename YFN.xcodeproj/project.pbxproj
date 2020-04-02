@@ -27,6 +27,8 @@
 		F5EE65882436550E007C78A7 /* ArtistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5EE65862436550E007C78A7 /* ArtistViewController.xib */; };
 		F5EE658B24365525007C78A7 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EE658924365525007C78A7 /* TipsViewController.swift */; };
 		F5EE658C24365525007C78A7 /* TipsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5EE658A24365525007C78A7 /* TipsViewController.xib */; };
+		F5EE659024366950007C78A7 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EE658E24366950007C78A7 /* ArtistTableViewCell.swift */; };
+		F5EE659124366950007C78A7 /* ArtistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5EE658F24366950007C78A7 /* ArtistTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		F5EE65862436550E007C78A7 /* ArtistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistViewController.xib; sourceTree = "<group>"; };
 		F5EE658924365525007C78A7 /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
 		F5EE658A24365525007C78A7 /* TipsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TipsViewController.xib; sourceTree = "<group>"; };
+		F5EE658E24366950007C78A7 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		F5EE658F24366950007C78A7 /* ArtistTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		F5745993242BDDF200DE5123 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F5EE658D24366912007C78A7 /* Cells */,
 				F57459A4243273AB00DE5123 /* CalendarView */,
 			);
 			path = Views;
@@ -202,6 +207,15 @@
 				F5C908B6242A88A600511255 /* Info.plist */,
 			);
 			path = YFNUITests;
+			sourceTree = "<group>";
+		};
+		F5EE658D24366912007C78A7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F5EE658E24366950007C78A7 /* ArtistTableViewCell.swift */,
+				F5EE658F24366950007C78A7 /* ArtistTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +325,7 @@
 				F5C9089F242A88A600511255 /* LaunchScreen.storyboard in Resources */,
 				F5C9089C242A88A600511255 /* Assets.xcassets in Resources */,
 				F574599D24323DF800DE5123 /* CalendarView.xib in Resources */,
+				F5EE659124366950007C78A7 /* ArtistTableViewCell.xib in Resources */,
 				F5EE65882436550E007C78A7 /* ArtistViewController.xib in Resources */,
 				F57459992430269A00DE5123 /* CalendarViewController.xib in Resources */,
 				F57459AC243273F200DE5123 /* DateCell.xib in Resources */,
@@ -346,6 +361,7 @@
 				F57459AB243273F200DE5123 /* DateCell.swift in Sources */,
 				F5EE6583243653CB007C78A7 /* HomeViewController.swift in Sources */,
 				F57459982430269A00DE5123 /* CalendarViewController.swift in Sources */,
+				F5EE659024366950007C78A7 /* ArtistTableViewCell.swift in Sources */,
 				F5EE658B24365525007C78A7 /* TipsViewController.swift in Sources */,
 				F5C9089A242A88A400511255 /* YFN.xcdatamodeld in Sources */,
 				F5C90890242A88A400511255 /* AppDelegate.swift in Sources */,
