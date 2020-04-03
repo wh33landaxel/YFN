@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CalendarView" customModule="YFN" customModuleProvider="target">
             <connections>
-                <outlet property="calendarView" destination="aqc-CA-SY7" id="oyM-Sb-IPS"/>
+                <outlet property="calendarCollectionView" destination="aqc-CA-SY7" id="NqC-pg-AFh"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="aMU-EG-b6w"/>
             </connections>
         </placeholder>
@@ -19,7 +19,7 @@
             <rect key="frame" x="0.0" y="0.0" width="466" height="270"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="aqc-CA-SY7">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="aqc-CA-SY7" userLabel="Calendar Collection View">
                     <rect key="frame" x="0.0" y="0.0" width="466" height="236"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="D7p-1B-Xd9">

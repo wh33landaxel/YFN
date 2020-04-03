@@ -14,7 +14,7 @@ protocol CalendarViewDelegate {
 
 class CalendarView: UIView {
     @IBOutlet var contentView: UIView!
-    @IBOutlet weak var calendarView: UICollectionView!
+    @IBOutlet weak var calendarCollectionView: UICollectionView!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -31,5 +31,6 @@ class CalendarView: UIView {
         addSubview(contentView)
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+
     }
 }
