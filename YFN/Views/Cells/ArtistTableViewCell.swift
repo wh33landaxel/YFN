@@ -11,6 +11,7 @@ import UIKit
 class ArtistTableViewCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var profileImageView: UIImageView!
+    static let cellId = "ArtistCell"
     
     override func awakeFromNib() {
         super.awakeFromNib()
