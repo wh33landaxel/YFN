@@ -3,14 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A5A6812BE24A4A4FDB59F91 /* Pods_YFN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63531981565FD07A425E983A /* Pods_YFN.framework */; };
+		7152A74C89B8D25DE584CC37 /* Pods_YFN_YFNUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EEAA5F787CA164E5A309AB /* Pods_YFN_YFNUITests.framework */; };
+		C11D907153F0A0028A1B9AEE /* Pods_YFNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AA89A72F15F911E6F619FF /* Pods_YFNTests.framework */; };
 		F57459982430269A00DE5123 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57459962430269A00DE5123 /* CalendarViewController.swift */; };
 		F57459992430269A00DE5123 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57459972430269A00DE5123 /* CalendarViewController.xib */; };
-		F574599B2430376000DE5123 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F574599A2430376000DE5123 /* CalendarView.swift */; };
-		F574599D24323DF800DE5123 /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F574599C24323DF800DE5123 /* CalendarView.xib */; };
 		F57459A02432410300DE5123 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F574599F2432410300DE5123 /* UIView+Extension.swift */; };
 		F57459AB243273F200DE5123 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57459A9243273F200DE5123 /* DateCell.swift */; };
 		F57459AC243273F200DE5123 /* DateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57459AA243273F200DE5123 /* DateCell.xib */; };
@@ -49,10 +50,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21EEAA5F787CA164E5A309AB /* Pods_YFN_YFNUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFN_YFNUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B89FDA73AC7AF4C0DF79E6E /* Pods-YFNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFNTests.release.xcconfig"; path = "Target Support Files/Pods-YFNTests/Pods-YFNTests.release.xcconfig"; sourceTree = "<group>"; };
+		3EF6511E5135A1C752426490 /* Pods-YFN-YFNUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFN-YFNUITests.release.xcconfig"; path = "Target Support Files/Pods-YFN-YFNUITests/Pods-YFN-YFNUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63531981565FD07A425E983A /* Pods_YFN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6395197CBCCF7ABDA4AC2480 /* Pods-YFN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFN.debug.xcconfig"; path = "Target Support Files/Pods-YFN/Pods-YFN.debug.xcconfig"; sourceTree = "<group>"; };
+		7FAA64EB0B7D8E2D2DBDD209 /* Pods-YFNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFNTests.debug.xcconfig"; path = "Target Support Files/Pods-YFNTests/Pods-YFNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4AA89A72F15F911E6F619FF /* Pods_YFNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA53E851F8B65B86D52D67EE /* Pods-YFN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFN.release.xcconfig"; path = "Target Support Files/Pods-YFN/Pods-YFN.release.xcconfig"; sourceTree = "<group>"; };
+		EA70AD46756FE5B5E28F328A /* Pods-YFN-YFNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFN-YFNUITests.debug.xcconfig"; path = "Target Support Files/Pods-YFN-YFNUITests/Pods-YFN-YFNUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F57459962430269A00DE5123 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		F57459972430269A00DE5123 /* CalendarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
-		F574599A2430376000DE5123 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		F574599C24323DF800DE5123 /* CalendarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
 		F574599F2432410300DE5123 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		F57459A9243273F200DE5123 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
 		F57459AA243273F200DE5123 /* DateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateCell.xib; sourceTree = "<group>"; };
@@ -84,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5A6812BE24A4A4FDB59F91 /* Pods_YFN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11D907153F0A0028A1B9AEE /* Pods_YFNTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7152A74C89B8D25DE584CC37 /* Pods_YFN_YFNUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47975D0CD8DEEB700D7E0870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63531981565FD07A425E983A /* Pods_YFN.framework */,
+				21EEAA5F787CA164E5A309AB /* Pods_YFN_YFNUITests.framework */,
+				A4AA89A72F15F911E6F619FF /* Pods_YFNTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A85CEF69E0525A6C09C5BFF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6395197CBCCF7ABDA4AC2480 /* Pods-YFN.debug.xcconfig */,
+				BA53E851F8B65B86D52D67EE /* Pods-YFN.release.xcconfig */,
+				EA70AD46756FE5B5E28F328A /* Pods-YFN-YFNUITests.debug.xcconfig */,
+				3EF6511E5135A1C752426490 /* Pods-YFN-YFNUITests.release.xcconfig */,
+				7FAA64EB0B7D8E2D2DBDD209 /* Pods-YFNTests.debug.xcconfig */,
+				3B89FDA73AC7AF4C0DF79E6E /* Pods-YFNTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F5745993242BDDF200DE5123 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,8 +180,6 @@
 		F57459A4243273AB00DE5123 /* CalendarView */ = {
 			isa = PBXGroup;
 			children = (
-				F574599A2430376000DE5123 /* CalendarView.swift */,
-				F574599C24323DF800DE5123 /* CalendarView.xib */,
 				F57459A9243273F200DE5123 /* DateCell.swift */,
 				F57459AA243273F200DE5123 /* DateCell.xib */,
 			);
@@ -161,6 +193,8 @@
 				F5C908A8242A88A600511255 /* YFNTests */,
 				F5C908B3242A88A600511255 /* YFNUITests */,
 				F5C9088D242A88A400511255 /* Products */,
+				A85CEF69E0525A6C09C5BFF8 /* Pods */,
+				47975D0CD8DEEB700D7E0870 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -225,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5C908B9242A88A600511255 /* Build configuration list for PBXNativeTarget "YFN" */;
 			buildPhases = (
+				D89AED3AEDF8AD05AF4419B5 /* [CP] Check Pods Manifest.lock */,
 				F5C90888242A88A400511255 /* Sources */,
 				F5C90889242A88A400511255 /* Frameworks */,
 				F5C9088A242A88A400511255 /* Resources */,
+				D5A883DA96C408D99B78586A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5C908BC242A88A600511255 /* Build configuration list for PBXNativeTarget "YFNTests" */;
 			buildPhases = (
+				2B31D683D3E15954A7CF18E6 /* [CP] Check Pods Manifest.lock */,
 				F5C908A1242A88A600511255 /* Sources */,
 				F5C908A2242A88A600511255 /* Frameworks */,
 				F5C908A3242A88A600511255 /* Resources */,
@@ -260,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5C908BF242A88A600511255 /* Build configuration list for PBXNativeTarget "YFNUITests" */;
 			buildPhases = (
+				61365CCCC75F51767CF0CB3A /* [CP] Check Pods Manifest.lock */,
 				F5C908AC242A88A600511255 /* Sources */,
 				F5C908AD242A88A600511255 /* Frameworks */,
 				F5C908AE242A88A600511255 /* Resources */,
+				E2C7B2A3B1CDDFF406E5A5F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -324,7 +363,6 @@
 			files = (
 				F5C9089F242A88A600511255 /* LaunchScreen.storyboard in Resources */,
 				F5C9089C242A88A600511255 /* Assets.xcassets in Resources */,
-				F574599D24323DF800DE5123 /* CalendarView.xib in Resources */,
 				F5EE659124366950007C78A7 /* ArtistTableViewCell.xib in Resources */,
 				F5EE65882436550E007C78A7 /* ArtistViewController.xib in Resources */,
 				F57459992430269A00DE5123 /* CalendarViewController.xib in Resources */,
@@ -350,13 +388,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B31D683D3E15954A7CF18E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YFNTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61365CCCC75F51767CF0CB3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YFN-YFNUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A883DA96C408D99B78586A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YFN/Pods-YFN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YFN/Pods-YFN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YFN/Pods-YFN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D89AED3AEDF8AD05AF4419B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YFN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C7B2A3B1CDDFF406E5A5F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YFN-YFNUITests/Pods-YFN-YFNUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YFN-YFNUITests/Pods-YFN-YFNUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YFN-YFNUITests/Pods-YFN-YFNUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F5C90888242A88A400511255 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F57459A02432410300DE5123 /* UIView+Extension.swift in Sources */,
-				F574599B2430376000DE5123 /* CalendarView.swift in Sources */,
 				F5EE65872436550E007C78A7 /* ArtistViewController.swift in Sources */,
 				F57459AB243273F200DE5123 /* DateCell.swift in Sources */,
 				F5EE6583243653CB007C78A7 /* HomeViewController.swift in Sources */,
@@ -528,6 +668,7 @@
 		};
 		F5C908BA242A88A600511255 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6395197CBCCF7ABDA4AC2480 /* Pods-YFN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +687,7 @@
 		};
 		F5C908BB242A88A600511255 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA53E851F8B65B86D52D67EE /* Pods-YFN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -564,6 +706,7 @@
 		};
 		F5C908BD242A88A600511255 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAA64EB0B7D8E2D2DBDD209 /* Pods-YFNTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -586,6 +729,7 @@
 		};
 		F5C908BE242A88A600511255 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B89FDA73AC7AF4C0DF79E6E /* Pods-YFNTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -608,6 +752,7 @@
 		};
 		F5C908C0242A88A600511255 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA70AD46756FE5B5E28F328A /* Pods-YFN-YFNUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -628,6 +773,7 @@
 		};
 		F5C908C1242A88A600511255 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF6511E5135A1C752426490 /* Pods-YFN-YFNUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import JTAppleCalendar
 
-class DateCell: UICollectionViewCell {
+class DateCell: JTACDayCell {
     @IBOutlet weak var dateLabel: UILabel!
     
     override func awakeFromNib() {

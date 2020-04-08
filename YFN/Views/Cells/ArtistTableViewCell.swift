@@ -24,4 +24,12 @@ class ArtistTableViewCell: UITableViewCell {
         
     }
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        profileImageView.layer.borderWidth = 1
+        profileImageView.layer.borderColor = UIColor.black.cgColor
+        profileImageView.layer.cornerRadius = profileImageView.frame.size.height / 2
+    }
+    
 }

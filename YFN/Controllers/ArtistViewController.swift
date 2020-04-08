@@ -13,9 +13,7 @@ class ArtistViewController: UIViewController {
     @IBOutlet weak var artistTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.title = "Recent Artists"
-        self.artistTableView.register(UINib.init(nibName: String(describing: ArtistTableViewCell.self), bundle: nil), forCellReuseIdentifier: ArtistTableViewCell.cellId)
+        setupTableViewStructure()
         
     }
 }
@@ -33,5 +31,16 @@ extension ArtistViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
+    }
+}
+
+fileprivate extension ArtistViewController {
+    
+    func setupTableViewStructure() {
+        
+        self.title = "Recent Artists"
+        self.artistTableView.register(UINib.init(nibName: String(describing: ArtistTableViewCell.self), bundle: nil), forCellReuseIdentifier: ArtistTableViewCell.cellId)
+        self.artistTableView.estimatedRowHeight = 100
+    
     }
 }

@@ -12,15 +12,10 @@ class HomeViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let viewControllerList = getViewControllerList()
-        
-        viewControllers = viewControllerList.map {
-            UINavigationController(rootViewController: $0)
-        }
+        setupTabBarControls()
     }
     
-    func getViewControllerList() -> [UIViewController] {
+    func setupTabBarControls() {
         
         let calendarVC = CalendarViewController()
         calendarVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
@@ -30,6 +25,11 @@ class HomeViewController: UITabBarController {
         let tipsVC = TipsViewController()
         tipsVC.tabBarItem = UITabBarItem(title: "Tips & Tricks", image: UIImage(named: "Tips"), tag: 2)
         
-        return [calendarVC, artistVC, tipsVC]
+        let viewControllerList = [calendarVC, artistVC, tipsVC]
+        
+        viewControllers = viewControllerList.map {
+                  UINavigationController(rootViewController: $0)
+        }
+        
     }
 }

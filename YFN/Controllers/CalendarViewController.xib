@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CalendarViewController" customModule="YFN" customModuleProvider="target">
             <connections>
-                <outlet property="calendarView" destination="SBQ-E1-A5e" id="d6S-lr-6qE"/>
+                <outlet property="calendarView" destination="pbG-xp-lPJ" id="QLa-T6-CSv"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,15 +19,32 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SBQ-E1-A5e" customClass="CalendarView" customModule="YFN" customModuleProvider="target">
-                    <rect key="frame" x="107" y="163" width="240" height="128"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="pbG-xp-lPJ" customClass="JTACMonthView" customModule="JTAppleCalendar">
+                    <rect key="frame" x="20" y="64" width="374" height="227"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                </view>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="227" id="uTw-If-gwY"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="FO4-Ei-zU9">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="ibCalendarDataSource" destination="-1" id="FeB-ov-huU"/>
+                        <outlet property="ibCalendarDelegate" destination="-1" id="K7r-Ix-gSt"/>
+                    </connections>
+                </collectionView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="pbG-xp-lPJ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="4Jf-AX-dVg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pbG-xp-lPJ" secondAttribute="trailing" constant="20" id="Ekh-t5-WiY"/>
+                <constraint firstItem="pbG-xp-lPJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="VMl-i3-qRH"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="-213" y="0.0"/>
+            <point key="canvasLocation" x="-213.04347826086959" y="0.0"/>
         </view>
     </objects>
 </document>
