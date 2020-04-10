@@ -30,6 +30,7 @@ class ArtistTableViewCell: UITableViewCell {
         profileImageView.layer.borderWidth = 1
         profileImageView.layer.borderColor = UIColor.black.cgColor
         profileImageView.layer.cornerRadius = profileImageView.frame.size.height / 2
+        
     }
     
 }

@@ -9,7 +9,7 @@
 import UIKit
 
 class ArtistViewController: UIViewController {
-
+    
     @IBOutlet weak var artistTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +22,7 @@ extension ArtistViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell : ArtistTableViewCell = tableView.dequeueReusableCell(withIdentifier: ArtistTableViewCell.cellId, for: indexPath) as? ArtistTableViewCell {
-            cell.nameLabel.text = "Poopie Butthole"
+            cell.nameLabel.text = "Axel Nunez"
             return cell
         } else {
             return UITableViewCell()
@@ -38,9 +38,16 @@ fileprivate extension ArtistViewController {
     
     func setupTableViewStructure() {
         
+        
+        artistTableView.rowHeight = UITableView.automaticDimension
+        artistTableView.estimatedRowHeight = 150
+        if #available(iOS 11.0, *) {
+            artistTableView.contentInsetAdjustmentBehavior = .never
+        }
         self.title = "Recent Artists"
-        self.artistTableView.register(UINib.init(nibName: String(describing: ArtistTableViewCell.self), bundle: nil), forCellReuseIdentifier: ArtistTableViewCell.cellId)
-        self.artistTableView.estimatedRowHeight = 100
-    
+        artistTableView.register(UINib.init(nibName: String(describing: ArtistTableViewCell.self), bundle: nil), forCellReuseIdentifier: ArtistTableViewCell.cellId)
+        
+        
+        
     }
 }
